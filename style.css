@@ -1,0 +1,103 @@
+* {
+  padding: 0;
+  margin: 0;
+  outline: none;
+}
+ul,
+ol {
+  list-style: none;
+  padding: 0;
+}
+
+*,
+.pt-sans-regular {
+  font-family: "PT Sans", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.pt-sans-bold {
+  font-family: "PT Sans", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+/* .pt-sans-regular-italic {
+   font-family: "PT Sans", sans-serif;
+   font-weight: 400;
+   font-style: italic;
+ }
+ 
+ .pt-sans-bold-italic {
+   font-family: "PT Sans", sans-serif;
+   font-weight: 700;
+   font-style: italic;
+ } */
+/* universel end */
+
+
+/* ---------------- */
+
+.container_coustom {
+  width: 940px;
+  background-color: green;
+}
+
+.nav_section {
+  padding-top: 50px;
+}
+.nav_section .navbar-brand a span {
+}
+.nav_section .navbar-brand img {
+  width: 50px;
+  height: 50px;
+}
+.nav_section .navbar-brand .img {
+  width: 200px;
+}
+.navbar-nav .nav-item .nav-link {
+  font-size: 20px;
+  font-weight: 600;
+  padding: 0 20px;
+}
+/* bannar */
+
+.carousel-indicators [data-bs-target] {
+  flex: 0 1 auto;
+  width: 10px !important;
+  height: 10px !important;
+  border-radius: 50% !important;
+}
+.carousel-dark .carousel-indicators [data-bs-target] {
+  background-color: #fff;
+}
+
+/* --------------- */
+
+
+
+@media(max-width:350px){
+   .bannar_img{
+      max-width: 100%;
+   }
+}
+/* --------------- */
+
+.input-group {
+}
+.input-group input {
+  padding: 0px 18px !important;
+  display: block;
+}
+
+.footer_ul li {
+  width: 35px !important;
+  height: 35px !important;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.downsection > * {
+  color: white;
+}
